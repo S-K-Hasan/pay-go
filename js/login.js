@@ -8,7 +8,7 @@ document.getElementById('btn-login').addEventListener('click',function(event){
     if(phoneNumber==='01703035415' && pinNumber==='98765')
     {
      alert('congratulation!!!');
-     window.location.href='homepage.html'
+     window.location.href='/homepage.html'
     }
     else{
         alert('Wrong phone nymber or pin.Please enter correct phone and pin!!!');
